@@ -1,11 +1,11 @@
 package AfterSOLID.SRP;
 
 public class BankService {
-    public int deposit(int amount, String accountNumber) {
-        return 0;
+    public void deposit(int amount, String accountNumber) {
+        System.out.printf("\nDepositing %d to account %s...\n", amount, accountNumber);
     }
 
-    public int withdraw(int amount, String accountNumber) {
-        return 0;
+    public void withdraw(int amount, String accountNumber) {
+        System.out.printf("\nWithdrawing %d from account %s...", amount, accountNumber);
     }
 }

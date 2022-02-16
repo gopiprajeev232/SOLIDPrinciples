@@ -11,10 +11,4 @@ public class Supermarket {
     {
         card.pay(amount);
     }
-
-    public static void main(String... args) {
-        IBankCard debitCard = new CreditCard();
-        Supermarket s = new Supermarket(debitCard);
-        s.buyItems(500);
-    }
 }

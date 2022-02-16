@@ -3,7 +3,7 @@ package BeforeSOLID.ISP;
 public class GooglePay implements UPIPayment {
 
     @Override
-    public void payMoney(int amount) {
+    public void payMoneyThroughUPI(int amount) {
         System.out.printf("%d has been paid", amount);
     }
 

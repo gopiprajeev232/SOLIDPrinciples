@@ -5,7 +5,7 @@ import java.util.Random;
 public class Paytm implements CashbackManager, UPIPayment {
     @Override
     public void payMoney(int amount) {
-        System.out.printf("%d has been paid", amount);
+        System.out.printf("\n%d has been paid.", amount);
     }
 
     @Override

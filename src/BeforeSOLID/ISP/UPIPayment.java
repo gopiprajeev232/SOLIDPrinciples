@@ -1,7 +1,7 @@
 package BeforeSOLID.ISP;
 
 public interface UPIPayment {
-    void payMoney(int amount);
+    void payMoneyThroughUPI(int amount);
     void getScratchCard();
     void getCashBackAsCredit();
 }
